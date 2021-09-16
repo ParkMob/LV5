@@ -1,6 +1,5 @@
 body {
   background: #0f0f0f;
-  padding: 40px 00px 00px 60px;
 }
 
 h1,
@@ -41,11 +40,7 @@ h5 {
   font-weight: 500;
 }
 
-.LOGO {
-  width: 100%;
-  height: 100px;
-  margin: 90px 0px 10px 0px;
-}
+.ALL_BOX{ margin: 0px 0px 0px 15%;}
 
 .THE_BOX {
   background: #f2f2f2;
@@ -127,6 +122,11 @@ h5 {
   float: bottom;
   position: absolute;
   bottom: 40px;
+}
+.LOGO {
+  width: 100%;
+  height: 100px;
+  margin: 5% 0px 0% 10%;
 }
 
 .LOGO_PT1 {
