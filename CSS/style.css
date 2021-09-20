@@ -5,21 +5,27 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
   margin: 0.1rem 0;
 }
 
-a{text-decoration:none;}
+a {
+  text-decoration: none;
+}
 
 h1 {
   font-family: "Paytone One", sans-serif;
   font-size: 40px;
-  Color: #0f0f0f;
+  color: #0f0f0f;
 }
+
 h1:hover {
   font-family: "Paytone One", sans-serif;
   font-size: 40px;
-  Color: #0030ff;
+  color: #0030ff;
+  text-decoration:  underline;
 }
 
 h2 {
@@ -40,7 +46,25 @@ h5 {
   font-weight: 500;
 }
 
-.ALL_BOX{ margin: 0px 0px 0px 15%;}
+h6{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  float: right;
+}
+h6:hover {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  float: right;
+  color: #0030ff;
+  text-decoration:  underline;
+}
+  
+  
+.ALL_BOX {
+  margin: 0px 0px 0px 8%;
+}
 
 .THE_BOX {
   background: #f2f2f2;
@@ -112,7 +136,9 @@ h5 {
   position: absolute;
   bottom: 75px;
 }
-.PROJECT_NO  {text-decoration: none;}
+.PROJECT_NO {
+  text-decoration: none;
+}
 
 .PROJECT_CLASS {
   margin: 20px 0px 0px 0px;
@@ -153,5 +179,4 @@ h5 {
   float: left;
 }
 
-#이후 마우스 오버 
-
+#이후 마우스 오버;
