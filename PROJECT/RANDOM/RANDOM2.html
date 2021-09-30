@@ -2,164 +2,96 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" type="text/css" href="RANDOM2.css" />
+    <script src="RANDOM2.js" defer></script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
     <title>Javascript Random</title>
-    <style>
-      /* HERE YOUR CODE */
-    </style>
+    <!------ font-------->
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap"
+      rel="stylesheet"
+    />
 
-    <script type="text/javascript">
-      window.onload = function() {
-        var first_line = document.getElementById("line-one");
-        var second_line = document.getElementById("line-two");
-        var third_line = document.getElementById("line-three");
-        var fourth_line = document.getElementById("line-four");
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;900&display=swap"
+      rel="stylesheet"
+    />
 
-        var line_one = [
-          "1 YEAR",
-          "2 YEARS",
-          "3 YEARS",
-          "4 YEARS",
-          "5Y EARS",
-          "6 YEARS",
-          "7 YEARS",
-          "8 YEARS",
-          "9 YEARS",
-          "10 YEARS",
-          "11 YEARS",
-          "12 YEARS",
-          "13 YEARS",
-          "14 YEARS",
-          "15 YEARS",
-          "16 YEARS",
-          "17 YEARS",
-          "18 YEARS",
-          "19 YEARS",
-          "20 YEARS",
-          "21 YEARS",
-          "22 YEARS",
-          "23 YEARS",
-          "24 YEARS",
-          "25 YEARS",
-          "26 YEARS",
-          "27 YEARS",
-          "28 YEARS",
-          "29 YEARS",
-          "30 YEARS",
-          "31 YEARS",
-          "32 YEARS",
-          "33 YEARS"
-        ];
-        var line_two = [
-          "1 DAY",
-          "2 DAYS",
-          "3 DAYS",
-          "4 DAYS",
-          "5 DAYS",
-          "6 DAYS",
-          "7 DAYS",
-          "8 DAYS",
-          "9 DAYS",
-          "10 DAYS",
-          "11 DAYS",
-          "12 DAYS",
-          "13 DAYS",
-          "14 DAYS",
-          "15 DAYS",
-          "16 DAYS",
-          "17 DAYS",
-          "18 DAYS",
-          "19 DAYS",
-          "20 DAYS",
-          "21 DAYS",
-          "21 DAYS",
-          "22 DAYS",
-          "23 DAYS",
-          "24 DAYS",
-          "25 DAYS",
-          "26 DAYS",
-          "27 DAYS",
-          "28 DAYS",
-          "29 DAYS"
-        ];
-        var line_three = [
-          "1 HOUR",
-          "2 HOURS",
-          "3 HOURS",
-          "4 HOURS",
-          "5 HOURS",
-          "6 HOURS",
-          "7 HOURS",
-          "8 HOURS",
-          "9 HOURS",
-          "10 HOURS",
-          "11 HOURS",
-          "12 HOURS",
-          "13 HOURS",
-          "14 HOURS",
-          "15 HOURS",
-          "16 HOURS",
-          "17 HOURS",
-          "18 HOURS",
-          "19 HOURS",
-          "20 HOURS",
-          "21 HOURS",
-          "22 HOURS",
-          "23 HOURS"
-        ];
-        var line_four = ["10 MIN", "20 MIN", "30 MIN", "40 MIN", "50 MIN"];
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
 
-        function select_random(x) {
-          y = x[Math.floor(Math.random() * x.length)];
-          return y;
-        }
-
-        function generate() {
-          var selected_one = select_random(line_one);
-          var selected_two = select_random(line_two);
-          var selected_three = select_random(line_three);
-          var selected_four = select_random(line_four);
-
-          first_line.innerHTML = selected_one;
-          second_line.innerHTML = selected_two;
-          third_line.innerHTML = selected_three;
-          fourth_line.innerHTML = selected_four;
-        }
-
-        document.getElementById("button").onclick = function() {
-          console.log("click");
-          generate();
-        };
-
-        generate();
-      };
-    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gemunu+Libre:wght@500&family=Montserrat:wght@900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <div id="all">
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <h1>YOU HAVE</h1>
-      <div id="line-one"></div>
-      <div id="line-two"></div>
-      <div id="line-three"></div>
-      <div id="line-four"></div>
-      til you graduate
-      <br />
-      <br />
-      <br />
-      <div class="button-container">
-        <button id="button">CHANGES WHEN YOU CLICK(HOPEFULLY)</button>
+    <div class="ALL">
+      <div class="THE_TEXT">
+        <!-------TITLE----------->
+        <div class="TITLE">
+          <h1>YOU HAVE</h1>
+        </div>
+        <!-------TOP----------->
+        <div class="LINE_BRK1">
+          LESS THEN
+          <!-------dropdown----------->
+          <select class="MAX-TIME" name="MAX-TIME">
+            <option value="99 YEARS"> 99YEARS </option>
+            <option value="90 YEARS"> 9OYEARS </option>
+            <option value="80 YEARS"> 8OYEARS </option>
+            <option value="70 YEARS"> 7OYEARS </option>
+            <option value="60 YEARS"> 6OYEARS </option>
+            <option value="50 YEARS"> 5OYEARS </option>
+            <option value="40 YEARS"> 4OYEARS </option>
+            <option value="30 YEARS"> 3OYEARS </option>
+            <option value="20 YEARS"> 2OYEARS </option>
+            <option value="1O YEARS"> 1OYEARS </option>
+            <option value="05 YEARS"> 05YEARS </option>
+            <option value="01 YEAR"> A YEAR </option>
+          </select>
+          </label>
+        </div>
+        <!-------TIME----------->
+        <div class="COUNT">
+          <div class="TIME"></div>
+          <div id="line-two"></div>
+          <div id="line-three"></div>
+          <div id="line-four"></div>
+        </div>
+        
+
+
+
+        <!-------TIL----------->
+        <div class="COMMENT">
+          TIL YOU
+          <form id="result" onsubmit="return false"> </form>
+
+        </div>
+        <!-------LINE BR---------->
+        <div class="LINE_BRK2"></div>
+        <input id="name" onchange=printName()>
+        <!-------ENTER----------->
+        <div class="button-container">
+          <button id="enter">ENTER</button>
+        </div>
+            <div class="PROJECT_CLASS">
+            *CD STUDIO: JAVASCRIPT
+          </div>
       </div>
     </div>
   </body>

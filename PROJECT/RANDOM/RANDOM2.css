@@ -1,6 +1,162 @@
 body {
-  background: black;
-      color:red;
-text-align:center;
+  background: #0f0f0f;
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0.1rem 0;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-family: "Paytone One", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: #0f0f0f;
+}
+
+
+h2 {
+  font-family: "Paytone One", sans-serif;
+  font-size: 33px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  float: right;
+}
+h6:hover {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  float: right;
+  color: #0030ff;
+  text-decoration: underline;
+}
+
+.ALL {
+  margin: auto;
+  background: #f2f2f2;
+  border: 4px solid #1b00ff;
+  border-radius: 5px;
+  height: 600px;
+  width: 430px;
+  position: relative;
+  top: 60px;
+}
+
+.THE_TEXT {
+  margin: 20px 12px 40px 10px;
+}
+
+.COUNT {
+   cursor: default;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+.COMMENT {
+  margin-top: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: right;
+}
+.result{  text-transform: uppercase;} 
+
+.LINE_BRK1 {
+   cursor: default;
+  background: #0f0f0f;
+  border-radius: 2px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  padding-left:2px;
+  text-align:left;
+}
+
+.LINE_BRK2 {
+  background: #0f0f0f;
+  border-radius: 2px;
+  height: 7px;
+}
+
+
+/*필터스타일*/
+button {
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  border: solid black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  bottom: 70px;
+  right: 12px;
+   position: absolute;
+  cursor: pointer;
+    padding: 0px 20px 0px 20px;
+  
+  
+
+}
+
+button:hover {
+  color: white;
+  background-color: blue;
+  border-radius: 9px;
+  border: solid blue;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+   position: absolute;
+  bottom: 70px;
+ padding: 0px 20px 0px 20px;
+ 
+}
+
+input {
+  margin-top: 10px;
+  float: left;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  border: solid black;
+  width: 60%;
+  position: absolute;
+  bottom: 70px;
+}
+
+.PROJECT_CLASS {
+  margin: 20px 0px 0px 0px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  float: bottom;
+  position: absolute;
+  bottom: 40px;
 }
