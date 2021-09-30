@@ -89,7 +89,7 @@ window.onload = function() {
   { second_line.innerHTML = `08 DAYS`; }
       if (selected_three=9 )
   { second_line.innerHTML = `09 DAYS`; }
- }
+
   
     
           if (selected_four=0 )
