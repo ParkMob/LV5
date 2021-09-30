@@ -112,7 +112,7 @@ window.onload = function() {
   { second_line.innerHTML = `08 HOURS`; }
       if (selected_four=9 )
   { second_line.innerHTML = `09 HOURS`; }
- }
+ 
 
          if (selected_five=0 )
   { second_line.innerHTML = `00 MINUTES`; }
